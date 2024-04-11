@@ -10,6 +10,7 @@ class MainPage {
 		
 		//creating object for GroceryService class
         GroceryService service = new GroceryServiceImpl();
+	System.out.println("have a good day!!!!!!!!!");
         System.out.println("********************************Welcome to Grocery****************************************");
         int selection = 1;
 		
