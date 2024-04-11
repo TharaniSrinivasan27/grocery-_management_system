@@ -10,13 +10,14 @@ class MainPage {
 		
 		//creating object for GroceryService class
         GroceryService service = new GroceryServiceImpl();
-	System.out.println("have a nice  day");
+	
         System.out.println("********************************Welcome to Grocery****************************************");
         int selection = 1;
+	System.out.println("have a nice  day");
 		
 		// Current user name
 	    String currentUser = "Tharani";
-		String modifiedName="Varshini";
+	    String modifiedName="Varshini";
 		
         while (true) {
             System.out.println("Enter your choice number ");
